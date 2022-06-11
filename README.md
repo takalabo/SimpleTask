@@ -20,15 +20,16 @@ SimpleTask とは，深層強化学習の基礎研究を誰でも気軽に行え
 インストールが完了しましたら，SimpleTask リポジトリをダウンロードしてください．
 SimpleTask のダウンロードが完了しましたら，HandyRL のディレクトリ下に SimpleTask ディレクトリ内の一部コードを移動させます．移動させるファイルは以下のファイルです．
 
-'SimpleTask/simpletask.py' → 'HandyRL/handyrl/envs/simpletask.py'
-'SimpleTask/config.yaml' → 'HandyRL/config.yaml'
+`SimpleTask/simpletask.py` → `HandyRL/handyrl/envs/simpletask.py`
 
-'simpletask.py'を envs ディレクトリ下に移動させ，HandyRL の'config.ymal'を SimpleTask の'config.yaml'に置き換えてください．
+`SimpleTask/config.yaml` → `HandyRL/config.yaml`
 
-以上で SimpleTask を動かす準備は完了です．実行してみましょう！
+`simpletask.py`を `envs` ディレクトリ下に移動させ， HandyRL の`config.ymal`を SimpleTask の`config.yaml`に置き換えてください．
+
+以上で SimpleTask を動かす準備は完了です． 実行してみましょう！
 
 ## 実行方法
-基本的な実行方法は HandyRL と同じですが， 'config.yaml'に SimpleTask 用のパラメータが増えています．具体的な手順を以下に記載します．
+基本的な実行方法は HandyRL と同じですが， `config.yaml`に SimpleTask 用のパラメータが増えています． 具体的な手順を以下に記載します．
 
 #### Step 1: パラメータを設定する
 `config.yaml`のパラメータをトレーニングに合わせて以下のように設定します．環境を simpletask ，バッチサイズを64でトレーニングを実行する場合は，以下のように設定します．
@@ -43,11 +44,11 @@ train_args:
     ...
 ```
 
-注意: SimpleTask のパラメータは，[こちら](docs/parameters.md)を参照してください．
+注意: SimpleTask のパラメータは， [こちら](docs/parameters.md)を参照してください．
 
 
 #### Step 2: トレーニング
-パラメータを設定したら，以下のコマンドを実行してトレーニングを開始します．トレーニングされたモデルは，`config.yaml`の`update_episodes`毎に`models`に保存されます．
+パラメータを設定したら， 以下のコマンドを実行してトレーニングを開始します． トレーニングされたモデルは， `config.yaml`の`update_episodes`毎に`models`に保存されます．
 ```
 python main.py --train
 ```
@@ -61,12 +62,10 @@ python main.py --eval models/1.pth 100 4
 注意: デフォルトの対戦相手AIは`evaluation.py`で実装されたランダムなエージェントです．また，自分で任意のエージェントに変更することができます．SimpleTask は現段階においては対戦ゲームではないです．そのため動作が不安定なことがあるので，その点に関しましてはあらかじめご了承ください．今後のアップデートで対応いたします．
 
 ## 現在実装されている機能
-・超平面次元数の設定
-・最大深度数の設定
-・報酬の場所の設定
-・報酬の量の設定
-・複数報酬の設定（報酬の量は全て同じ）
-・スタート地点の非ランダム化
-・POMDP （途中報酬）の設定
-
-## ドキュメント
+* 超平面次元数の設定
+* 最大深度数の設定
+* 報酬の場所の設定
+* 報酬の量の設定
+* 複数報酬の設定（報酬の量は全て同じ）
+* スタート地点の非ランダム化
+* POMDP （途中報酬）の設定
