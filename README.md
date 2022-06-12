@@ -73,5 +73,5 @@ python main.py --eval models/1.pth 100 4
 ## ドキュメント
 
 * [**SimpleTask Parameters**](docs/parameters.md) `config.yaml`で SimpleTask のタスク設定が可能．パラメータの詳細はここのページを参照してください．
-* [**JSAI2022発表論文**](https://www.overleaf.com/read/pbsnjkgqccfj) ここに SimpleTask 自体の詳細な説明があります．
-* [**JSAI2022発表スライド**](https://docs.google.com/presentation/d/19ZVz0u7HMlmrcXrbripUFiIgjLlLBqmba2TWHw1-hfg/edit#slide=id.g1090bec1a92_0_151) 発表論文を要約した内容が書いてあります．
+* [**JSAI2022発表論文**](https://www.overleaf.com/read/pbsnjkgqccfj) ここに SimpleTask の詳細な説明があります．
+* [**JSAI2022発表スライド**](https://docs.google.com/presentation/d/19ZVz0u7HMlmrcXrbripUFiIgjLlLBqmba2TWHw1-hfg/edit?usp=sharing) 発表論文を要約した内容が書いてあります．
