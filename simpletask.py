@@ -1,4 +1,5 @@
 # Copyright (c) 2020 DeNA Co., Ltd.
+# Copyright (c) 2022 takalabo @ Tokyo Denki University
 # Licensed under The MIT License [see LICENSE for details]
 
 # implementation of simpletask
