@@ -12,7 +12,7 @@
 HandyRL とは，DeNA によって開発された最新の並列強化学習のフレームワークです．HandyRL では誰でも強化学習を手軽に扱え，簡単に強いAIを作ることができます．また実装が難しい並列強化学習を手軽に試すことができます．HandyRLの詳細については[こちら](https://github.com/DeNA/HandyRL)をご覧ください．
 
 ## SimpleTaskとは
-SimpleTask とは，深層強化学習の基礎研究を誰でも気軽に行えることを目的として開発された深層強化学習の検証タスクです．深層強化学習の問題点を，タスク設計を工夫し，並列強化学習を手軽に扱うことができる HandyRL に組み込むことで解決します．SimpleTask の詳細については[こちら](https://www.overleaf.com/read/pbsnjkgqccfj)をご覧ください．
+SimpleTask とは，深層強化学習の基礎研究を誰でも気軽に行えることを目的として開発された深層強化学習の検証タスクです．深層強化学習の問題点を，タスク設計を工夫し，並列強化学習を手軽に扱うことができる HandyRL に組み込むことで解決します．SimpleTask の詳細については[こちら](https://drive.google.com/file/d/1cL8N-yL3mHcks0rxp2Qp1s7pynn7J6vp/view?usp=sharing)をご覧ください．
 
 ## 利用方法
 まず，HandyRL を[こちら](https://github.com/DeNA/HandyRL)のページからインストールしてください．
@@ -73,5 +73,5 @@ python main.py --eval models/1.pth 100 4
 ## ドキュメント
 
 * [**SimpleTask Parameters**](docs/parameters.md) `config.yaml`で SimpleTask のタスク設定が可能．パラメータの詳細はここのページを参照してください．
-* [**JSAI2022発表論文**](https://www.overleaf.com/read/pbsnjkgqccfj) ここに SimpleTask の詳細な説明があります．
+* [**JSAI2022発表論文**](https://drive.google.com/file/d/1cL8N-yL3mHcks0rxp2Qp1s7pynn7J6vp/view?usp=sharing) ここに SimpleTask の詳細な説明があります．
 * [**JSAI2022発表スライド**](https://docs.google.com/presentation/d/19ZVz0u7HMlmrcXrbripUFiIgjLlLBqmba2TWHw1-hfg/edit?usp=sharing) 発表論文を要約した内容が書いてあります．
